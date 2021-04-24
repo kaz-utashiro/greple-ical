@@ -1,3 +1,4 @@
+[![Actions Status](https://github.com/kaz-utashiro/greple-ical/workflows/test/badge.svg)](https://github.com/kaz-utashiro/greple-ical/actions) [![MetaCPAN Release](https://badge.fury.io/pl/App-Greple-ical.svg)](https://metacpan.org/release/App-Greple-ical)
 # NAME
 
 ical - Module to support Apple OS X Calendar data
