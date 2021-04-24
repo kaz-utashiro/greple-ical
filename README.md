@@ -48,6 +48,13 @@ Sample:
      CATEGORIES:BUSINESS,HUMAN RESOURCES
      END:VEVENT
 
+# TIPS
+
+Use `-dfn` option to observe the command running status.
+
+Use `-ds` option to see statistics information such as how many files
+were searched.
+
 # SEE ALSO
 
 RFC2445

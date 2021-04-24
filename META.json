@@ -42,8 +42,8 @@
       },
       "runtime" : {
          "requires" : {
-            "App::Greple" : "8.43",
-            "perl" : "5.014"
+            "App::Greple" : "8.4301",
+            "perl" : "v5.14.0"
          }
       },
       "test" : {
@@ -53,8 +53,22 @@
       }
    },
    "release_status" : "unstable",
-   "version" : "1.002",
+   "resources" : {
+      "bugtracker" : {
+         "web" : "https://github.com/kaz-utashiro/greple-ical/issues"
+      },
+      "homepage" : "https://github.com/kaz-utashiro/greple-ical",
+      "repository" : {
+         "type" : "git",
+         "url" : "git://github.com/kaz-utashiro/greple-ical.git",
+         "web" : "https://github.com/kaz-utashiro/greple-ical"
+      }
+   },
+   "version" : "0.01",
    "x_authority" : "cpan:UTASHIRO",
+   "x_contributors" : [
+      "Kazumasa Utashiro <kaz@utashiro.com>"
+   ],
    "x_serialization_backend" : "JSON::PP version 4.04",
    "x_static_install" : 1
 }

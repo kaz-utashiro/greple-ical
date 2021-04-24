@@ -48,6 +48,13 @@ Sample:
      CATEGORIES:BUSINESS,HUMAN RESOURCES
      END:VEVENT
 
+=head1 TIPS
+
+Use C<-dfn> option to observe the command running status.
+
+Use C<-ds> option to see statistics information such as how many files
+were searched.
+
 =head1 SEE ALSO
 
 RFC2445
@@ -67,25 +74,14 @@ it under the same terms as Perl itself.
 
 package App::Greple::ical;
 
-use strict;
+our $VERSION = '0.01';
+
+use v5.14;
 use warnings;
-
 use Carp;
+use Exporter 'import';
 
-BEGIN {
-    use Exporter   ();
-    our ($VERSION, @ISA, @EXPORT, @EXPORT_OK, %EXPORT_TAGS);
-
-    $VERSION = sprintf "%d.%03d", q$Revision: 1.2 $ =~ /(\d+)/g;
-
-    @ISA         = qw(Exporter);
-    @EXPORT      = qw(&print_simple &print_detail &print_desc);
-    %EXPORT_TAGS = ( );
-    @EXPORT_OK   = qw();
-}
-our @EXPORT_OK;
-
-END { }
+our @EXPORT = qw(&print_simple &print_detail &print_desc);
 
 sub print_detail {
     $_ = &print_simple . &print_desc . "\n";
