@@ -74,7 +74,7 @@ it under the same terms as Perl itself.
 
 package App::Greple::ical;
 
-our $VERSION = '0.01';
+our $VERSION = '0.02';
 
 use v5.14;
 use warnings;
